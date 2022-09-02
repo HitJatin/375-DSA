@@ -27,6 +27,7 @@ function App() {
 		ReactGA.pageview(window.location.pathname + window.location.search);
 		getData((QuestionData) => {
 			setquestionData(QuestionData);
+			console.log(QuestionData)
 		});
 
 		//implementing dark theme mode option
